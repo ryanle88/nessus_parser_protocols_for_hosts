@@ -650,6 +650,8 @@ def run(file_path, output):
                 }
             )
 
+    print(f"[!] Parsing successfully. New file {output + '.csv'} has been created.")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
